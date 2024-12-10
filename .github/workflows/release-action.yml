@@ -27,7 +27,7 @@ jobs:
         run: |
               git submodule init
               sudo apt update &&
-              sudo apt install libmpv-dev
+              sudo apt install libmpv2 libmpv-dev
 
       - name: Build
         run: |
